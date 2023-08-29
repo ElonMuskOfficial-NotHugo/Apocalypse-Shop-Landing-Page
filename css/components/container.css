@@ -1,0 +1,19 @@
+.container {
+    width: 100%;
+    margin-left: 100px;
+    height: 300px;
+}
+
+.container-center {
+  width: 100%;
+  margin: 0px 0px;
+  height: 50px;
+  text-align: center;
+  padding: 20px 0;
+  border-top: 2px solid #D7942E  ;
+  border-bottom: 2px solid #D7942E  ;
+  background-color: #3D3829;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px -25px 20px -20px rgba(0,0,0,0.45),
+  0px 25px 20px -20px rgba(0,0,0,0.45);
+}

@@ -1,0 +1,43 @@
+.footer {
+  text-align: center;
+  height: 250px;
+  width: 100%;
+  background-color: #3D3829;
+  box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+  border-top: 2px solid rgba(208,232,216, 1);
+  padding-top: 20px;
+  font-size: xx-large;
+  color: white;
+}
+
+.flex-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-list li {
+  margin: 0 15px;
+}
+
+.footer a:link {
+  color: rgba(208,232,216, 1);
+  text-decoration: none;
+}
+
+.footer a:visited {
+  color: rgba(208,232,216, 1);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #FFA500;
+  text-decoration: underline;
+}
+
+/* Selected link */
+.footer a:active {
+  color: #FF4500;
+  text-decoration: underline;
+}

@@ -1,0 +1,46 @@
+.flexbox-cards {
+  display: flex;
+  justify-content: space-evenly;
+  width: 75%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.card {
+  text-align: center;
+  width: 200px;
+  margin: 10px;
+  position: relative;
+  border-radius: 10px;
+  background-color: #3D3829;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 0 5px rgba(208,232,216, .6);
+}
+
+.card img {
+  width: 150px;
+  padding: 30px;
+}
+
+.card h3 {
+  font-size: 22px;
+}
+
+.card p {
+  font-size: 15px;
+}

@@ -1,0 +1,19 @@
+.button-main {
+    display: inline-block;
+    background-color: transparent;
+    padding: 14px 32px;
+    border-radius: 50px;
+    color: white;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+
+.button-main:hover {
+      color: rgba(208,232,216, 1);
+      box-shadow: 0 10px 20px rgba(208,232,216, .6);
+      text-shadow: 2px 10px 20px rgba(208,232,216, .6)
+}
+
+.flex-list {
+  display: flex;
+}
